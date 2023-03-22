@@ -18,7 +18,7 @@ public class MergeSort {
 	
 	if(ini<fim) {
 		
-		int meio =(ini+fim)/2;
+		int meio =(ini+fim)/2;	
 		mergeSort(v,aux,ini,meio);
 		mergeSort(v,aux,meio+1, fim);
 		intercalar(v,aux,ini,meio,fim);
@@ -31,6 +31,7 @@ public class MergeSort {
   public static void intercalar(int []v,int []aux,int ini,int meio,int fim) {
 		
 		for(int k=ini;k<=fim;k++) 
+			
 			aux[k]=v[k];
 			
 			int i=ini;
