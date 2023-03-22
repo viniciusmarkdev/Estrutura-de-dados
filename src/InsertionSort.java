@@ -1,4 +1,5 @@
 
+
 public class InsertionSort {
 
 	
@@ -9,7 +10,8 @@ public class InsertionSort {
 		
 		for(int i = 0 ; i<vetor.length;i++) {
 			
-			vetor[i]=(int)(Math.random()*vetor.length);
+	
+     	vetor[i]=(int)(Math.random()*vetor.length);
 			
 		}
 		
