@@ -3,9 +3,19 @@ import java.util.Scanner;
 public class BinarySearch {
 	
 	
-	//A complexidade de tempo é de 0(log n)
+	//A complexidade de tempo é de 0(log2  n)
 	
-	//Ou seja para cada quantidade 
+	//Ou seja para cada etapa para se buscar o número você eliminada pela metade a outras opções 
+	// de comparação  , até que reste uma única opção.
+	
+	
+	//A pesquisa precisa de log2 n etapas para retornar o resultado
+	
+	
+	//para cada entrada eu tenho log2 n etapas para retornar o resultado
+	
+	
+	
 	
 	//A pesquisa binária funciona somente se o array estiver ordenado
 	
