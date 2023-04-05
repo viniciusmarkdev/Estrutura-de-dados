@@ -3,9 +3,18 @@ import java.util.Scanner;
 public class BinarySearch {
 	
 	
+	//A complexidade de tempo é de 0(log n)
+	
+	//Ou seja para cada quantidade 
+	
+	//A pesquisa binária funciona somente se o array estiver ordenado
+	
+	
+	
 	public static void main(String[] args) {
 		
-		int [] vetor = new int[8];
+		int [] vetor = new int[100];
+		
 		for(int i=0;i<vetor.length ; i++) {
 			
 			vetor[i]=i*2;
@@ -19,6 +28,9 @@ public class BinarySearch {
 		Scanner leitor = new Scanner(System.in);
 		int buscado = leitor.nextInt();
 		
+		int contador = 0;
+		
+		
 		boolean achou = false;
 		
 		int inicio=0; 
@@ -28,6 +40,7 @@ public class BinarySearch {
 		while(inicio <=fim) {
 			
 			meio = (int)((inicio+fim)/2);
+			contador++; //Quantos testes a busca fez
 		
 			if(vetor[meio]==buscado) {
 				
@@ -45,9 +58,9 @@ public class BinarySearch {
 			}
 			
 		}
+		System.out.println("Quantidade de testes : "+contador);
 		
-		
-		if(achou==true) {
+		if(achou==	true) {
 			
 			System.out.println("Achou");
 			
