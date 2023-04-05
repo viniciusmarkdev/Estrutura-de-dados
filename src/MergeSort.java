@@ -12,7 +12,8 @@ public class MergeSort {
 		System.out.println(Arrays.toString(v));
 		
 		
-	}
+
+}
 	
   private static void mergeSort(int[] v,int[] aux ,int ini,int fim) {
 	
