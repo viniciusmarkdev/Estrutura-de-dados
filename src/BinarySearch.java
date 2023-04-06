@@ -23,7 +23,7 @@ public class BinarySearch {
 	
 	public static void main(String[] args) {
 		
-		int [] vetor = new int[100];
+		int [] vetor = new int[10];
 		
 		for(int i=0;i<vetor.length ; i++) {
 			
