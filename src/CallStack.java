@@ -1,4 +1,19 @@
 
+
+/*
+ * 
+ * O que é CallStack 
+ * 
+ * Callstack é um mecanismo utilizado pelas linguagens para controlar
+ * as chamadas de funções  de respeitando  os contexto globais e de funções 
+ * em um programa
+ * 
+ * é uma pilha de chamada
+ * 
+ * 
+ */
+
+
 public class CallStack {
 	
     static void tchau() {
@@ -11,6 +26,8 @@ public class CallStack {
 		System.out.println("como vai"+nome+
 				 "?");
 	}
+	
+	
 	
 	
    

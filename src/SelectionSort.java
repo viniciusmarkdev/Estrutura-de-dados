@@ -5,9 +5,13 @@ import java.util.Stack;
 public class SelectionSort {
 	
 	
+	//Esse Algoritmo tem tempo de execução O(N^2)
+	
+	
+	
 	public static void main(String[] args) {
 		
-		int [] vetor = {2,1};
+		int [] vetor = {3,4,2,1};
 		
 		
 		ordenacaoPorSelecao(vetor);
