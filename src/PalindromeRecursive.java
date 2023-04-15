@@ -39,6 +39,8 @@ public class PalindromeRecursive {
 			
 		}
 	
+		//Caso uma comparação não seja igual 
+		//Retoramos falso
 		return false;
 	}
 }
