@@ -4,7 +4,7 @@ public class somaAnterioresRecursivo {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(soma(5));
+		System.out.println(soma(10));
 	}
 
 	
