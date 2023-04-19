@@ -30,6 +30,14 @@ public class BinarySearchRecursive {
 	
 	//4 Os algoritmos de divisão e conquista são normalmente recursivos
 	
+	//Por isso temos que saber o caso base e uma forma de diminuir o problema
+	//até chegar no caso base(caso recursivo).
+	
+	
+	//O algoritmo DC não é um simples algoritmo que você aplica em um
+	//problema, mas sim uma maneira de pensar sobre o problema. Vamos ver
+    //	mais um exemplo
+	
 	
 	
 	
