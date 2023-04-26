@@ -24,6 +24,32 @@ public class quickSort {
 	//os valores do subarray
 	
 	
+	//O Algoritmo quicksort possuí complexidade de temp O(n log n)
+	//Para o caso médio
+	
+	//Para o pior caso ele possui tempo de execução 0(N^2)
+	
+	
+	//O algoritmo Mergesort também possuí complexidade de tempo O(n log n)
+	
+	
+	
+	/*
+	 * Embora tenha a mesma quantidade de tempo, a constante do quicksort
+	 * é menor que a constante  do mergesort , tornando o algoritmo
+	 * quicksort mais rápido.
+	 * 
+	 * Porém algoritmo merge sort sempre tem a complexidade 
+	 * de O(n log n)
+	 * 
+	 * A constante é o tempo necessário para fazer as comparações
+	 * e trocas  em um algoritmo.
+	 * 
+	 *  assim que se calcula a forma em que o tempo constante 
+	 *  atua sobre o algoritmo , onde C é a constante . C*N
+	 * 
+	 */
+	
 	public static void main(String[] args) {
 		
 	int [] vetor = {5 ,2 , 6, 6,8 ,10,9 , 1};
@@ -88,7 +114,7 @@ public class quickSort {
 				
 				if(i>=j) {
 					
-					return j;
+						return j;
 				}
 				
 				int aux = vetor[i];
