@@ -42,6 +42,29 @@ public class ListaLigada {
 		this.tamanho= tamanho;
 		
 	}
+	
+	@Override
+	public String toString() {
+		
+		StringBuffer conc = new StringBuffer("");
+		conc.append("[");
+		
+		Elemento novoElemento = this.primeiro;
+		while(novoElemento!=null) {
+			
+			
+			conc.append(novoElemento.getValor()+","+" ");
+			novoElemento = novoElemento.getProximo();
+			
+			
+		}
+		
+	    conc.append("]");
+		return conc.toString();
+	
+	    
+		
+	}
 
 	public void adicionar(String novoValor) {
 		

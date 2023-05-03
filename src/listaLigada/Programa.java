@@ -14,6 +14,8 @@ public class Programa {
 		System.out.println("Tamanho : " +lista.getTamanho());
 		
 		
+		
+		
 		System.out.println("Primeiro :  " + lista.getPrimeiro().getValor());
 		System.out.println("Ultimo   :  " +lista.getUltimo().getValor());
 		
@@ -21,6 +23,8 @@ public class Programa {
 			
 			System.out.println(lista.get(i).getValor());
 		}
+         
+         System.out.println("Mostrar lista : "+lista);
 		
 	
 		
@@ -37,7 +41,10 @@ public class Programa {
 		lista.remover("SP");
 	
 	
+		 System.out.println("Mostrar lista : "+lista);
+		 
 		System.out.println("Tamanho : " + lista.getTamanho());
+		
 		for(int i=0 ; i<lista.getTamanho();i++) {
 			
 			System.out.println(lista.get(i).getValor());
