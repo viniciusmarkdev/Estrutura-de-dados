@@ -68,7 +68,7 @@ public class listaLigadaGenerica<T> {
 	public void adicionar(T novoValor) {
 		
 		
-		Node<T> novoElemento = new Node(novoValor);
+		Node<T> novoElemento = new Node<T>(novoValor);
 		
 		if(this.primeiro==null && this.ultimo==null) {
 			
@@ -159,6 +159,11 @@ public class listaLigadaGenerica<T> {
 		
 	}
 	
+	
+	public iteratorListaLigada<T> getIterator(){
+		
+		return new  iteratorListaLigada<T>(this.primeiro);
+	}
 	
 
 	

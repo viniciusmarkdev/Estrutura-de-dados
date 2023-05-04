@@ -33,14 +33,15 @@ public class TesteListaLigadaGeneric {
 		
         lista.remover(1);
           
-        System.out.println("Removeu estado DF");
+        System.out.println("Removeu o número 1 ");
         lista.adicionar(1);
-		System.out.println("Adicionou estado SP");
+		System.out.println("Adicionou 1");
 		
 		lista.remover(2);
 		lista.remover(3);
 		lista.remover(4);
 		lista.remover(5);
+		lista.adicionar(1000);
 	
 	
 		 System.out.println("Mostrar lista : "+lista);
@@ -51,10 +52,17 @@ public class TesteListaLigadaGeneric {
 			
 			System.out.println(lista.get(i).getValue());
 		}
+		
+		
+		
+		System.out.println("Primeiro :  " + lista.getPrimeiro().getValue());
+		System.out.println("Ultimo   :  " +lista.getUltimo().getValue());
 	
 		
 	}
 		
+	
+	
 		
 		
 	
